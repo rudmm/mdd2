@@ -197,13 +197,6 @@ a{
     max-width: 100%;
     height: auto;
 }
-.cme-logo{
-    position: absolute;
-    right: 125px;
-    top: -11px;
-    width: 85px;
-    height: 155px;
-}
 .btn-mobile{
     display: none;
 }
@@ -230,10 +223,15 @@ a{
     line-height: 44px;
     margin-bottom: 40px;
 }
+.section-info{
+    margin-top: 40px;
+    display: flex;
+}
 .section-icon{
     width: 120px;
     height: 120px;
-    margin-top: 40px;
+    display: inline-block; 
+    margin-right: 30px; 
 }
 .section-icon img{
     max-width: 100%;
@@ -244,6 +242,8 @@ a{
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
+    display: inline-block;
+    max-width: 1032px;
 }
 .top-btn{
     max-width: 100%;
@@ -252,7 +252,7 @@ a{
     width: 200px;
     height: 40px;
     border: 1px solid #D9B310;
-    margin-top: 60px;
+    margin-top: 55px;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -263,6 +263,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     transition: all 1s;
+    margin-bottom: 70px;
 }
 .top-btn a:hover{
     background-color: #d9b310;
@@ -293,10 +294,16 @@ a{
 .section-tittle > *{
     font-family: 'EB Garamond', serif;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 55px;
     border-bottom: 3px solid #d9b310;
     display: inline-block;
     padding-bottom: 3px;
+}
+
+/*early section*/
+
+.early .top-btn a{
+    margin-bottom: 60px;
 }
 
 /*begin target section*/
@@ -313,42 +320,7 @@ a{
 
 /*end target section*/
 
-/*begin objectives section*/
 
-.objectives{
-    background-color: #0F243E;
-}
-.objectives .section-tittle{
-    padding-top: 30px;
-    margin-left: 20px;
-}
-.objectives-content{
-    margin-top: 34px;
-    font-size: 16px;
-    line-height: 27px;
-    margin-left: 23px;
-    padding-right: 25px;
-}
-.content-tittle{
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-.content-list li {
-    padding-bottom: 15px;
-}
-.content-list li::before{
-    content: '';
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: #d9b310;
-    transform: translateY(-50%);
-    margin-right: 10px;
-    margin-left: 2px;
-}
-
-/*end objectives section*/
 
 /*begin disclaimer section*/
 
@@ -373,6 +345,7 @@ a{
 }
 .docent-item{
     display: flex;
+    margin-bottom: 30px;
 }
 .docent-image{
     display: inline-block;
@@ -456,6 +429,7 @@ a{
 .footer{
     padding: 15px 0;
     background-color: #10243D;
+    margin-top: 100px;
 }
 .footer .mbox{
     padding-left: 0;
