@@ -228,14 +228,14 @@ a{
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
+    margin-bottom: 40px;
 }
-.man-icon{
+.section-icon{
     width: 120px;
     height: 120px;
     margin-top: 40px;
-    margin-bottom: 40px;
 }
-.man-icon img{
+.section-icon img{
     max-width: 100%;
     height: auto;
     border-radius: 50%;
@@ -244,20 +244,6 @@ a{
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-}
-.top-text p:first-child, .top-text p:nth-of-type(2){
-    max-width: 59%;
-}
-.top-image{
-    width: 42%;
-    height: 506px;
-    position: absolute;
-    right: 63px;
-    top: 40px;
-}
-.top-image img{
-    max-width: 100%;
-    height: auto;
 }
 .top-btn{
     max-width: 100%;
