@@ -205,9 +205,6 @@ a{
     .nav-logo{
         margin-left: 40px;
     }
-    .cme-logo{
-        right: 50px;
-    }
 }
 /* end header styles*/
 
@@ -279,9 +276,6 @@ a{
     .top-image{
         right: 20px;
     }
-    .top-text p{
-        margin-right: 50px;
-    }
     section{
         margin-left: 40px;
         margin-right: 50px;
@@ -298,6 +292,7 @@ a{
     border-bottom: 3px solid #d9b310;
     display: inline-block;
     padding-bottom: 3px;
+    max-width: 1200px;
 }
 
 /*early section*/
@@ -538,6 +533,14 @@ a{
           margin-top: 40px;
           margin-bottom: 40px;
       }
+      .top-tittle > *{
+          font-size: 27px;
+          line-height: 35px;
+      }
+      .section-tittle > *{
+          font-size: 25px;
+          line-height: 45px;
+      }
 }
 @media screen and (max-width: 768px){
     .man-icon{
@@ -574,21 +577,35 @@ a{
         margin-left: 20px;
         margin-right: 20px;
     }
+    .section-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-icon{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
     .footer-text{
         padding: 0 20px;
+    }
+    .top-tittle > *{
+        font-size: 22px;
+        line-height: 32px;
     }
 }
 
 @media screen and (max-width: 666px){
-    .top-tittle >*{
-        font-size: 30px;
-        line-height: 40px;
-    }
     .top-btn a {
         margin-top: 20px;
     }
     .target{
         margin-top: 40px;
+    }
+    .top-btn a, .early .top-btn a{
+        margin-bottom: 20px;
+    }
+    .footer{
+        margin-top: 50px;
     }
 }
 
@@ -599,9 +616,22 @@ a{
     .top-tittle > *{
         font-size: 24px;
         line-height: 30px;
+        margin-bottom: 20px;
     }
     .man-icon{
         margin-top: 10px;
+    }
+    .top-btn a{
+        margin-bottom: 20px;
+    }
+    .target{
+        margin-top: 0;
+    }
+    .faculty{
+        margin-top: 0;
+    }
+    .disclaimer{
+        margin-top: 0;
     }
 }
 
