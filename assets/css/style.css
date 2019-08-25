@@ -289,10 +289,13 @@ a{
     font-family: 'EB Garamond', serif;
     font-size: 36px;
     line-height: 55px;
-    border-bottom: 3px solid #d9b310;
     display: inline-block;
     padding-bottom: 3px;
     max-width: 1200px;
+}
+.section-tittle span{
+
+    border-bottom: 3px solid #d9b310;
 }
 
 /*early section*/
